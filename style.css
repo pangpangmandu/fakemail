@@ -7,7 +7,7 @@ body{
 }
 
 hr{
-    width: 100%;
+    width: 100vw;
     background-color: #121d57;
     height: 20px;
 }
@@ -67,32 +67,57 @@ text-align: center;
 }
 
 .mail-row{
+    vertical-align: middle;
     display: flex;
     flex-direction: row;
-    width: 100%;
-    height: 10vh;
+    width: 100vw;
+    min-height: 10vh;
     border-bottom: solid 2px rgb(151, 151, 151);
+
 }
 
 .row1{
     background-color:  rgb(82, 96, 112);
     width: 20vw;
+    text-align: center;
     color: white;
+    line-height: 10vh;
 }
 
 .row2{
     width: 70vw;
-    
+    padding-left: 4vw;
+    line-height: 10vh;
 }
 
+
+
+.row2.mail-file{
+    text-decoration: underline;
+
+}
+
+.row2.mail-content{
+    min-height: 100vh;
+    word-break: normal;
+    text-overflow:clip;
+    line-break: strict;
+    white-space: pre;
+    word-wrap: break-word;
+    line-height: 60px !important;
+}
 
 .back{
     width: 100px;
     height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+    text-align: center;
     position: relative;
     top: 3vh;
-    left: 90vw;
+    left: 93vw;
     background-color:rgb(82, 96, 112) ;
+    margin-bottom: 5vh;
 }
 
 .back>a{

@@ -71,6 +71,7 @@ text-align: center;
 #eachmail-wrapper{
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 
 .mail-row{
